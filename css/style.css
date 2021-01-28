@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+  
+}
+.header_container {
+  padding-top: 35px;
+  max-width: 1004px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_navbar {
+  width: 680px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_link {
+  color: black;
+  text-decoration: none;
+}
+.log-in {
+  padding: 11px 34px;
+  background: #1C8575;
+  border-radius: 8px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
