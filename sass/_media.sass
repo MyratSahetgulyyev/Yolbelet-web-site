@@ -94,6 +94,7 @@
       flex-wrap: wrap
       place-content: space-evenly
     &_block
+      height: 200px
       width: 150px
       margin-bottom: 20px
       &:not(:last-child)
@@ -130,6 +131,15 @@
         margin-right: 10px
     &_text
       margin-bottom: 15px
+  .why-us
+    &_blocks
+      width: 100%
+      flex-direction: column
+    &_block
+      width: 100%
+      height: 160px
+      &:not(:last-child)
+        margin-right: 0
 
 @media ( max-width: 370px )
   .container

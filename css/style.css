@@ -229,6 +229,8 @@ li {
           align-items: center;
   padding: 25px;
   background: #FAFAFA;
+  -webkit-box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.08);
 }
 
 .why-us_block__img {
@@ -244,6 +246,82 @@ li {
   font-size: 22px;
   line-height: 35px;
   margin-bottom: 15px;
+}
+
+.videocourses {
+  padding-bottom: 100px;
+}
+
+.videocourses_container {
+  color: #fff;
+  height: 800px;
+  width: 100%;
+  background-image: url(.././img/videocourses/bcgp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.videocourse {
+  padding-top: 200px;
+  padding-left: 140px;
+  width: 420px;
+}
+
+.videocourse_join {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding: 12px 18px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.videocourse_name {
+  width: 420px;
+  margin-bottom: 20px;
+}
+
+.tutor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.tutor_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tutor_avatar {
+  margin-right: 15px;
+}
+
+.tutor_name {
+  font-family: New York Extra Large;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.tutor_prof {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 17px;
 }
 
 @media (max-width: 1400px) {
@@ -378,6 +456,7 @@ li {
     place-content: space-evenly;
   }
   .why-us_block {
+    height: 200px;
     width: 150px;
     margin-bottom: 20px;
   }
@@ -423,6 +502,20 @@ li {
   }
   .intro_text {
     margin-bottom: 15px;
+  }
+  .why-us_blocks {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .why-us_block {
+    width: 100%;
+    height: 160px;
+  }
+  .why-us_block:not(:last-child) {
+    margin-right: 0;
   }
 }
 
