@@ -368,26 +368,24 @@ li {
   overflow: hidden;
 }
 
-.news_block__img {
-  width: 160px;
-  height: 180px;
-}
-
 .news_block__img-1, .news_block__img-4 {
   width: 160px;
   height: 181px;
   margin-right: 15px;
+  border-radius: 5px;
 }
 
 .news_block__img-2 {
   width: 206px;
   height: 151px;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .news_block__img-3, .news_block__img-5 {
   width: 206px;
   height: 130px;
+  border-radius: 5px;
   margin-bottom: 10px;
 }
 
