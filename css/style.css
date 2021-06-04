@@ -409,6 +409,9 @@ li {
     font-size: 16px;
     line-height: 23px;
   }
+  .videocourses {
+    padding-bottom: 80px;
+  }
   .videocourse_btn {
     padding: 8px 14px;
   }
@@ -476,9 +479,29 @@ li {
     width: 40px;
     height: 40px;
   }
+  .videocourses {
+    padding-bottom: 60px;
+  }
+  .videocourses_container {
+    height: 640px;
+  }
   .videocourse {
-    padding-top: 100px;
+    width: 360px;
+    padding-top: 115px;
     padding-left: 50px;
+  }
+  .videocourse_name {
+    font-size: 26px;
+    line-height: 35px;
+    margin: 0 0 30px 0;
+  }
+  .videocourse_btn {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 5px 10px;
+  }
+  .tutor {
+    margin-bottom: 30px;
   }
 }
 
@@ -527,6 +550,15 @@ li {
   .why-us_block:not(:last-child) {
     margin-right: 0;
   }
+  .videocourses {
+    padding-bottom: 40px;
+  }
+  .videocourse {
+    padding-left: 17px;
+  }
+  .videocourse_name {
+    width: 330px;
+  }
 }
 
 @media (max-width: 370px) {
@@ -535,6 +567,12 @@ li {
   }
   .intro_button {
     padding: 8px 22px;
+  }
+  .videocourse {
+    width: 300px;
+  }
+  .videocourse_name {
+    width: 280px;
   }
 }
 
@@ -549,6 +587,9 @@ li {
   }
   .intro_button {
     padding: 6px 20px;
+  }
+  .videocourses {
+    padding-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

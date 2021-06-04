@@ -65,7 +65,8 @@
       &__title
         font-size: 16px
         line-height: 23px
-
+  .videocourses
+    padding-bottom: 80px
   .videocourse
     &_btn
       padding: 8px 14px
@@ -112,9 +113,24 @@
         width: 40px
         height: 40px
 
+  .videocourses
+    padding-bottom: 60px
+    &_container
+      height: 640px
   .videocourse
-    padding-top: 100px
+    width: 360px
+    padding-top: 115px
     padding-left: 50px
+    &_name
+      font-size: 26px
+      line-height: 35px
+      margin: 0 0 30px 0
+    &_btn
+      font-size: 14px
+      line-height: 17px
+      padding: 5px 10px
+  .tutor
+    margin-bottom: 30px
 
 @media ( max-width: 576px )
   .container
@@ -152,6 +168,13 @@
       &:not(:last-child)
         margin-right: 0
 
+  .videocourses
+    padding-bottom: 40px
+  .videocourse
+    padding-left: 17px
+    &_name
+      width: 330px
+
 @media ( max-width: 370px )
   .container
     max-width: 350px
@@ -159,6 +182,11 @@
   .intro
     &_button
       padding: 8px 22px
+
+  .videocourse
+    width: 300px
+    &_name
+      width: 280px
 
 @media ( max-width: 330px )
   .container
@@ -171,3 +199,6 @@
       overflow: hidden
     &_button
       padding: 6px 20px
+
+  .videocourses
+    padding-bottom: 20px
