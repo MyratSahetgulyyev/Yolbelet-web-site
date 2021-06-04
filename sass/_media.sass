@@ -31,10 +31,6 @@
     &_btn
       padding: 10px 16px
 
-  .news
-    &_blocks
-      grid-template: repeat(2, auto)/ 470px 236px 236px
-
 @media ( max-width: 992px )
   .container
     max-width: 728px
@@ -69,13 +65,13 @@
       &__title
         font-size: 16px
         line-height: 23px
-  .videocourses
-    padding-bottom: 80px
+
   .videocourse
     &_btn
       padding: 8px 14px
 
   .news
+    padding-top: 80px
     &_blocks
       grid-template-columns: 50% 50%
       grid-gap: 20px
@@ -123,7 +119,6 @@
         height: 40px
 
   .videocourses
-    padding-bottom: 60px
     &_container
       height: 640px
   .videocourse
@@ -142,12 +137,9 @@
     margin-bottom: 30px
 
   .news
-    &_block
-      &__img
-        &-1, &-4
-          width: 100%
-      &-1, &-4
-        flex-direction: column
+    padding-top: 60px
+    &_blocks
+      grid-template-columns: 100%
 
 @media ( max-width: 576px )
   .container
@@ -185,14 +177,13 @@
       &:not(:last-child)
         margin-right: 0
 
-  .videocourses
-    padding-bottom: 40px
   .videocourse
     padding-left: 17px
     &_name
       width: 330px
 
   .news
+    padding-top: 40px
     &_blocks
       grid-template-columns: 100%
 
@@ -221,5 +212,5 @@
     &_button
       padding: 6px 20px
 
-  .videocourses
-    padding-bottom: 20px
+  .news
+    padding-top: 20px
