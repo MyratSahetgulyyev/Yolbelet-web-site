@@ -31,6 +31,10 @@
     &_btn
       padding: 10px 16px
 
+  .news
+    &_blocks
+      grid-template: repeat(2, auto)/ 470px 236px 236px
+
 @media ( max-width: 992px )
   .container
     max-width: 728px
@@ -70,6 +74,11 @@
   .videocourse
     &_btn
       padding: 8px 14px
+
+  .news
+    &_blocks
+      grid-template-columns: 50% 50%
+      grid-gap: 20px
 
 @media ( max-width: 768px )
   .container
@@ -132,6 +141,14 @@
   .tutor
     margin-bottom: 30px
 
+  .news
+    &_block
+      &__img
+        &-1, &-4
+          width: 100%
+      &-1, &-4
+        flex-direction: column
+
 @media ( max-width: 576px )
   .container
     max-width: 500px
@@ -174,6 +191,10 @@
     padding-left: 17px
     &_name
       width: 330px
+
+  .news
+    &_blocks
+      grid-template-columns: 100%
 
 @media ( max-width: 370px )
   .container
