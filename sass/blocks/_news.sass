@@ -1,0 +1,66 @@
+.news
+  padding-bottom: 85px
+  background: linear-gradient(0deg, #FAFAFA, #FAFAFA), #FAFAFA
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.05)
+  &_container
+    display: flex
+    flex-direction: column
+    align-items: center
+  &_title
+    margin-bottom: 40px
+  &_blocks
+    display: grid
+    grid-template: repeat(2, 211px)/ 470px 236px 236px
+    grid-gap: 30px
+    margin-bottom: 30px
+  &_block
+    padding: 15px
+    background: #FFFFFF
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.05)
+    border-radius: 4px
+    overflow: hidden
+    &__img
+      width: 160px
+      height: 180px
+      &-1, &-4
+        width: 160px
+        height: 181px
+        margin-right: 15px
+      &-2
+        width: 206px
+        height: 151px
+        margin-bottom: 15px
+      &-3, &-5
+        width: 206px
+        height: 130px
+        margin-bottom: 10px
+    &__date
+      font-family: Proxima Nova
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 17px
+      margin-bottom: 10px
+    &__title
+      font-family: New York Extra Large
+      font-style: normal
+      font-weight: 800
+      font-size: 16px
+      line-height: 23px
+      margin-bottom: 10px
+    &-1, &-4
+      display: flex
+    &-2
+      grid-row: span 2
+  &_btn
+    background: $green
+    border-radius: 8px
+    font-family: Proxima Nova
+    font-style: normal
+    font-weight: 600
+    font-size: 18px
+    line-height: 22px
+    text-align: center
+    color: #FFFFFF
+    padding: 12px 30px
+    cursor: pointer

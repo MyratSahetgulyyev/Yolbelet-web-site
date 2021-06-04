@@ -324,6 +324,115 @@ li {
   line-height: 17px;
 }
 
+.news {
+  padding-bottom: 85px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FAFAFA), to(#FAFAFA)), #FAFAFA;
+  background: linear-gradient(0deg, #FAFAFA, #FAFAFA), #FAFAFA;
+  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.05);
+          box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.05);
+}
+
+.news_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news_title {
+  margin-bottom: 40px;
+}
+
+.news_blocks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (211px)[2];
+  -ms-grid-columns: 470px 236px 236px;
+      grid-template: repeat(2, 211px)/470px 236px 236px;
+  grid-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.news_block {
+  padding: 15px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.05);
+          box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.news_block__img {
+  width: 160px;
+  height: 180px;
+}
+
+.news_block__img-1, .news_block__img-4 {
+  width: 160px;
+  height: 181px;
+  margin-right: 15px;
+}
+
+.news_block__img-2 {
+  width: 206px;
+  height: 151px;
+  margin-bottom: 15px;
+}
+
+.news_block__img-3, .news_block__img-5 {
+  width: 206px;
+  height: 130px;
+  margin-bottom: 10px;
+}
+
+.news_block__date {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.news_block__title {
+  font-family: New York Extra Large;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.news_block-1, .news_block-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news_block-2 {
+  grid-row: span 2;
+}
+
+.news_btn {
+  background: #1C8575;
+  border-radius: 8px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
 @media (max-width: 1400px) {
   .container {
     max-width: 1192px;
