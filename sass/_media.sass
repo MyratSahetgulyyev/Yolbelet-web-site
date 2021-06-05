@@ -15,12 +15,10 @@
   .header
     &_container
       padding-bottom: 60px
-  .log-in
+  .btn
     padding: 10px 30px
   .intro
     padding-bottom: 200px
-    &_button
-      padding: 10px 30px
   .why-us
     &_block
       &:not(:last-child)
@@ -72,6 +70,7 @@
 
   .news
     padding-top: 80px
+    padding-bottom: 60px
     &_blocks
       grid-template-columns: 50% 50%
       grid-gap: 20px
@@ -79,6 +78,11 @@
 @media ( max-width: 768px )
   .container
     max-width: 528px
+  .btn
+    padding: 9px 20px
+    font-size: 14px
+    line-height: 17px
+
   .header
     &_container
       padding-bottom: 40px
@@ -129,17 +133,23 @@
       font-size: 26px
       line-height: 35px
       margin: 0 0 30px 0
-    &_btn
-      font-size: 14px
-      line-height: 17px
-      padding: 5px 10px
+
   .tutor
     margin-bottom: 30px
 
   .news
     padding-top: 60px
+    padding-bottom: 40px
     &_blocks
       grid-template-columns: 100%
+
+  .mentor-tutor
+    padding-top: 90px
+    padding-bottom: 80px
+    &_img
+      width: 328px
+      height: 224px
+      overflow: hidden
 
 @media ( max-width: 576px )
   .container
@@ -151,6 +161,8 @@
   p
     font-size: 15px
     line-height: 20px
+  .btn
+    padding: 7px 15px
 
   .header
     &_container
@@ -184,8 +196,13 @@
 
   .news
     padding-top: 40px
+    padding-bottom: 20px
     &_blocks
       grid-template-columns: 100%
+
+  .mentor-tutor
+    padding-top: 110px
+    padding-bottom: 90px
 
 @media ( max-width: 370px )
   .container
@@ -200,6 +217,11 @@
     &_name
       width: 280px
 
+  .mentor-tutor
+    &_img
+      width: 300px
+      height: 214px
+
 @media ( max-width: 330px )
   .container
     max-width: 300px
@@ -210,7 +232,7 @@
       height: 200px
       overflow: hidden
     &_button
-      padding: 6px 20px
+      padding: 7px 15px
 
   .news
     padding-top: 20px
