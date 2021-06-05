@@ -75,6 +75,19 @@
       grid-template-columns: 50% 50%
       grid-gap: 20px
 
+  .mentor-tutor_texts, .be-mentor-tutor_img
+    margin-right: 50px
+  .mentor-tutor_img
+    width: 350px
+  .be-mentor-tutor_img
+    width: 350px
+  .be-mentor_btn, .be-tutor_btn
+    padding: 10px 25px
+  .be-mentor_btn
+    margin-right: 14px
+  .mentor-search_btn
+    margin-right: 14px
+
 @media ( max-width: 768px )
   .container
     max-width: 528px
@@ -146,10 +159,17 @@
   .mentor-tutor
     padding-top: 90px
     padding-bottom: 80px
-    &_img
-      width: 328px
-      height: 224px
-      overflow: hidden
+    &_container
+      flex-direction: column
+    &_texts
+      align-items: center
+      text-align: center
+  .be-mentor-tutor
+    &_container
+      flex-direction: column
+    &_texts
+      align-items: center
+      text-align: center
 
 @media ( max-width: 576px )
   .container
@@ -203,6 +223,8 @@
   .mentor-tutor
     padding-top: 110px
     padding-bottom: 90px
+  .be-mentor-tutor_btn
+    padding: 6px 10px
 
 @media ( max-width: 370px )
   .container

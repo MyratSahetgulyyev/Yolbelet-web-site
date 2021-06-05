@@ -383,10 +383,10 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -401,10 +401,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+  margin-right: 70px;
 }
 
 .mentor-tutor__title {
@@ -420,6 +417,39 @@ li {
 }
 
 .mentor-search_btn {
+  margin-right: 25px;
+}
+
+.be-mentor-tutor {
+  padding: 150px 0;
+}
+
+.be-mentor-tutor_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.be-mentor-tutor_img {
+  margin-right: 70px;
+}
+
+.be-mentor-tutor_title {
+  margin-bottom: 25px;
+}
+
+.be-mentor-tutor_text {
+  margin-bottom: 25px;
+}
+
+.be-mentor_btn {
   margin-right: 25px;
 }
 
@@ -516,6 +546,24 @@ li {
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     grid-gap: 20px;
+  }
+  .mentor-tutor_texts, .be-mentor-tutor_img {
+    margin-right: 50px;
+  }
+  .mentor-tutor_img {
+    width: 350px;
+  }
+  .be-mentor-tutor_img {
+    width: 350px;
+  }
+  .be-mentor_btn, .be-tutor_btn {
+    padding: 10px 25px;
+  }
+  .be-mentor_btn {
+    margin-right: 14px;
+  }
+  .mentor-search_btn {
+    margin-right: 14px;
   }
 }
 
@@ -614,10 +662,29 @@ li {
     padding-top: 90px;
     padding-bottom: 80px;
   }
-  .mentor-tutor_img {
-    width: 328px;
-    height: 224px;
-    overflow: hidden;
+  .mentor-tutor_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mentor-tutor_texts {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .be-mentor-tutor_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .be-mentor-tutor_texts {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
   }
 }
 
@@ -686,6 +753,9 @@ li {
   .mentor-tutor {
     padding-top: 110px;
     padding-bottom: 90px;
+  }
+  .be-mentor-tutor_btn {
+    padding: 6px 10px;
   }
 }
 
